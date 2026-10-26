@@ -19,13 +19,6 @@
 - 自适应画布缩放，适配不同屏幕尺寸。
 - 全部音效通过 WebAudio API 实时合成，无外部音频文件。
 
-## 技术栈
-
-- 原生 HTML5 Canvas
-- 原生 JavaScript（ES5/ES6 混合，无框架）
-- CSS3 响应式布局
-- WebAudio API
-
 ## 运行方式
 
 无需安装依赖，直接用浏览器打开：
@@ -34,15 +27,6 @@
 # 本地任意静态服务器均可
 npx serve .
 # 或直接用浏览器打开 index.html
-```
-
-## 文件结构
-
-```
-claw-machine/
-├── index.html    # 页面入口
-├── style.css     # 样式与 UI 布局
-└── game.js       # 游戏主逻辑、物理、渲染、音效
 ```
 
 ## License
