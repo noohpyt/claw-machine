@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>抓娃娃机 · Claw Machine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="stage">
+    <canvas id="game"></canvas>
+    <div id="stats">得分 0 · 尝试 0 · 成功率 --</div>
+    <button id="reset" title="重新摆放娃娃">↻ 重置</button>
+    <div id="toast"></div>
+    <div id="hint">← → / A D 移动 · 空格 / ↓ 下爪</div>
+    <div id="touch">
+      <div class="grp">
+        <button id="btnL">◀</button>
+        <button id="btnR">▶</button>
+      </div>
+      <button id="btnD">抓</button>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
