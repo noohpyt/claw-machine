@@ -31,4 +31,4 @@ npx serve .
 
 ## License
 
-MIT
+本项目采用 GNU General Public License v3.0（GPL-3.0）授权。详见 [LICENSE](./LICENSE) 文件。
